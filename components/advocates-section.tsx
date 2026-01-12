@@ -1,4 +1,6 @@
 import Image from "next/image"
+import lokesh from "@/public/lokesh.webp"
+import vikas from "@/public/vikas.webp"
 
 export function AdvocatesSection() {
   const advocates = [
@@ -10,7 +12,7 @@ export function AdvocatesSection() {
       phone: "8059062613",
       description:
         "An experienced legal professional with extensive exposure to handling civil, criminal, matrimonial, and other legal matters. Known for a disciplined approach, practical legal insight, and dedicated client representation.",
-      image: "/advocates/lokesh.jpg",
+      image: lokesh.src,
     },
     {
       name: "Vikas Raghav",
@@ -18,9 +20,11 @@ export function AdvocatesSection() {
       barNumber: "Ph/6136",
       experience: "More than 1 year",
       phone: "8851820604",
+      // description:
+      //   "A committed legal professional involved in handling civil, criminal, matrimonial, and other legal matters. Focused on professional ethics, legal research, and effective client assistance.",
       description:
-        "A committed legal professional involved in handling civil, criminal, matrimonial, and other legal matters. Focused on professional ethics, legal research, and effective client assistance.",
-      image: "/advocates/vikas.jpg",
+        "",
+      image: vikas.src,
     },
   ]
 
