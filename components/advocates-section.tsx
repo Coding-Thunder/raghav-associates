@@ -18,12 +18,13 @@ export function AdvocatesSection() {
       name: "Vikas Raghav",
       designation: "Advocate",
       barNumber: "Ph/6136",
-      experience: "More than 1 year",
+      // experience: "More than 1 year",
+      experience: "",
       phone: "8851820604",
-      // description:
-      //   "A committed legal professional involved in handling civil, criminal, matrimonial, and other legal matters. Focused on professional ethics, legal research, and effective client assistance.",
       description:
-        "",
+        "A committed legal professional involved in handling civil, criminal, matrimonial, and other legal matters. Focused on professional ethics, legal research, and effective client assistance.",
+      // description:
+      //   "",
       image: vikas.src,
     },
   ]
